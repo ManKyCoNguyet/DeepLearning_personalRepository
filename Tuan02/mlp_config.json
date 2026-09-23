@@ -1,0 +1,22 @@
+{
+    "model": "HousePriceMLP",
+    "input_dim": 286,
+    "hidden_dims": [
+        256,
+        128,
+        64
+    ],
+    "dropout": 0.2,
+    "loss": "MSELoss",
+    "optimizer": "Adam",
+    "learning_rate": 0.0005,
+    "batch_size": 64,
+    "max_epochs": 100,
+    "patience": 15,
+    "seed": 42,
+    "target_transform": "log1p",
+    "prediction_transform": "expm1",
+    "device": "cpu",
+    "best_epoch": 25,
+    "training_time_seconds": 1.5030005000298843
+}

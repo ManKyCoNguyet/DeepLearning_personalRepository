@@ -1,0 +1,2 @@
+model,RMSLE,RMSE,MAE,R2,training_time_seconds,kaggle_score,notes
+MLP,0.1867505681186526,34670.42543725127,24773.1328125,0.8432871699333191,1.5030005000298843,,"PyTorch MLP with log1p target, early stopping"
